@@ -15,9 +15,15 @@ public class StudentGrades {
         System.out.println(studentGrades.toString());
     }
     public Student studentWithHighestGrade(){
-
-        Student name;
-
-        return name;
+        Set<Student> students = studentGrades.keySet();
+        Student theDude = new Student("");
+        int maxGrade = -1;
+        for (Student student : students) {
+            if(studentGrades.get(student) > maxGrade){
+                maxGrade = studentGrades.get(student);
+                theDude = student;
+            }
+        }
+        return theDude;
     }
 }
