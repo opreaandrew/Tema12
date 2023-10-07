@@ -14,16 +14,28 @@ public class PersonMethods {
 
     public List<String> peopleNames(){
         return people.stream().
-                map(Person::name).
+                map(Person::getName).
                 collect(Collectors.toList());
     }
 
     public Map<String, Integer> nameToAge(){
-        return people.stream().collect(Collectors.toMap(Person::name, Person::age));
+        return people.stream().
+                collect(Collectors.toMap(Person::getName, Person::getAge));
     }
 
     public List<Person> olderThan(Integer age){
-        List<Person> result = new ArrayList<>();
-        return result;
+        return people.stream().
+                filter(person -> person.getAge() > age).
+                collect(Collectors.toList());
+    }
+
+    public Map<String, List<String>> hairToName(){
+        return people.stream()
+                .collect(Collectors.groupingBy(Person::getHairColour, Collectors.mapping(Person::getName, Collectors.toList())));
+    }
+
+    public Map<Integer, List<String>> ageToName(){
+        return people.stream().
+                collect(Collectors.groupingBy(Person::getAge, Collectors.mapping(Person::getName, Collectors.toList())));
     }
 }
