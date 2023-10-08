@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7315e34-a7b2-4837-953d-e7c0c5b83465" name="Changes" comment="Continuat tema">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise3/EmployeeMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/DaySchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise5/EnumsExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise2/PersonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise2/PersonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/Days.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696428974250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Continuat tema">
+      <option name="closed" value="true" />
+      <created>1696679600131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696679600131</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -3,6 +3,9 @@ package ro.fasttrackit;
 import ro.fasttrackit.exercise1.*;
 import ro.fasttrackit.exercise2.*;
 import ro.fasttrackit.exercise3.*;
+import ro.fasttrackit.exercise4.DaySchedule;
+import ro.fasttrackit.exercise4.Days;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -42,23 +45,26 @@ public class Main {
 //        System.out.println(personMethods.ageToName());
 
         // Exercise 3
+//
+//        List<Employee> employees = List.of(
+//                new Employee("Alice", 30, "Blonde", "CompanyA", 50000),
+//                new Employee("Bob", 25, "Brown", "CompanyB", 55000),
+//                new Employee("Charlie", 35, "Black", "CompanyA", 60000),
+//                new Employee("David", 40, "Blonde", "CompanyB", 62000),
+//                new Employee("Eve", 28, "Brown", "CompanyA", 52000)
+//        );
+//
+//        EmployeeMethods employeeMethods = new EmployeeMethods(employees);
+//
+//        System.out.println(employeeMethods.earnsMoreThan(52000));
+//        System.out.println(employeeMethods.peopleForCompany());
+//        System.out.println(employeeMethods.sumOfAllSalaries());
+//        System.out.println(employeeMethods.highestSalary());
 
-        List<Employee> employees = List.of(
-                new Employee("Alice", 30, "Blonde", "CompanyA", 50000),
-                new Employee("Bob", 25, "Brown", "CompanyB", 55000),
-                new Employee("Charlie", 35, "Black", "CompanyA", 60000),
-                new Employee("David", 40, "Blonde", "CompanyB", 62000),
-                new Employee("Eve", 28, "Brown", "CompanyA", 52000)
-        );
+        // Exercise 4
 
-        EmployeeMethods employeeMethods = new EmployeeMethods(employees);
-
-        System.out.println(employeeMethods.earnsMoreThan(52000));
-        System.out.println(employeeMethods.peopleForCompany());
-        System.out.println(employeeMethods.sumOfAllSalaries());
-        System.out.println(employeeMethods.highestSalary());
-
-
+        DaySchedule daySchedule = new DaySchedule();
+        daySchedule.schedule(Days.MONDAY);
 
     }
 }
