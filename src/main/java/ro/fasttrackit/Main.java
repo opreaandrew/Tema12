@@ -5,6 +5,7 @@ import ro.fasttrackit.exercise2.*;
 import ro.fasttrackit.exercise3.*;
 import ro.fasttrackit.exercise4.DaySchedule;
 import ro.fasttrackit.exercise4.Days;
+import ro.fasttrackit.exercise5.Planets;
 
 import java.util.HashMap;
 import java.util.List;
@@ -63,8 +64,11 @@ public class Main {
 
         // Exercise 4
 
-        DaySchedule daySchedule = new DaySchedule();
-        daySchedule.schedule(Days.MONDAY);
+//        DaySchedule daySchedule = new DaySchedule();
+//        daySchedule.schedule(Days.MONDAY);
 
+        // Exercise 5
+
+        System.out.println(Planets.equivalentEarthWeight("sun", 3.0));
     }
 }

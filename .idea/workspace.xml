@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7315e34-a7b2-4837-953d-e7c0c5b83465" name="Changes" comment="Continuat tema">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/DaySchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise5/EnumsExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise4/Days.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise5/EnumsExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrackit/exercise5/Planets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696679600131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Continuat tema">
+      <option name="closed" value="true" />
+      <created>1696736677979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696736677979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
